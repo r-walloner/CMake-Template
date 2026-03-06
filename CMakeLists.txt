@@ -1,3 +1,3 @@
 cmake_minimum_required(VERSION 3.10)
 project(Main)
-add_executable(Main src/main.cpp)
+add_executable(${CMAKE_PROJECT_NAME} src/main.cpp)
