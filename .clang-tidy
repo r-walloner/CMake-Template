@@ -4,7 +4,8 @@ Checks: >
   bugprone-*,
   performance-*,
   readability-*,
-  clang-analyzer-*
+  clang-analyzer-*,
+  -readability-braces-around-statements
 WarningsAsErrors: ""
 HeaderFilterRegex: ""
 FormatStyle: file
