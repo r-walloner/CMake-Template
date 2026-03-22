@@ -5,7 +5,9 @@ Checks: >
   performance-*,
   readability-*,
   clang-analyzer-*,
-  -readability-braces-around-statements
+  -readability-braces-around-statements,
+  -readability-isolate-declaration,
+  -bugprone-easily-swappable-parameters
 WarningsAsErrors: ""
 HeaderFilterRegex: ""
 FormatStyle: file
